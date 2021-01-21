@@ -39,7 +39,11 @@ pip install -r requirements.txt
 ```
 
 Run the main python file `Taxi_Analysis.py`
+
+```bash
+python Taxi_Analysis.py
+```
  
-####***It will take Lot of time minimum  45 minutes So wait for few minutes***
+#### ***It will take Lot of time minimum  45 minutes So wait for few minutes***
 
 Output Will be generated in jpg files.
