@@ -178,7 +178,7 @@ plt.ylabel('')
 plt.xlabel('Feature Importance', fontsize = font_axis)
 plt.yticks(np.arange(len(feature_importances_green)), list(feature_importances_green.sort_values(by = 'importance', ascending = False)['feature'])[::-1]);
 
-plt.savefig('Final14.png', dpi = 1000)
+plt.savefig('Results.png', dpi = 1000)
 
 
 tip_max = 5.
@@ -205,7 +205,7 @@ plt.xlabel(r'$y - y_{pred}$ (dollars) ')
 plt.ylabel('Frequency')
 
 
-plt.savefig('Final13.png', dpi = 1000)
+plt.savefig('Error.png', dpi = 1000)
 
 print (np.std(x_yellow))
 print (np.std(x_green))
